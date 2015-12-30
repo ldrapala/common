@@ -1,7 +1,8 @@
-package byt.money.common.leftbar;
+package byt.money.common.bar;
 
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.GridPane;
 
 /**
  *
@@ -9,7 +10,7 @@ import javafx.scene.control.Button;
  */
 public interface IWorkingPanel {
     
-    Scene getScene();
+    GridPane getScene();
     
     String getName();
     

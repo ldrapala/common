@@ -42,5 +42,10 @@ public class Model {
     public String getName() {
         return name;
     }
+
+    @Override
+    public String toString() {
+        return "Model{" + "category=" + category + ", name=" + name + ", amount=" + amount + ", date=" + date + ", details=" + details + '}';
+    }
     
 }
